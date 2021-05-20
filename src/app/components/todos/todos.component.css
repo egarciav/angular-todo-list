@@ -1,0 +1,59 @@
+.todos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.todo-input {
+    margin: 7px;
+    padding: 8px;
+    font-size: 14px
+}
+
+.todo-submit {
+    margin: 7px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #0099CC;
+    border: 2px solid #0099CC; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-submit:disabled {
+    opacity: 0.5;
+}
+
+.delete {
+    margin: 7px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    border: 2px solid red; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todos .default .content {
+    margin: 7px;
+    padding: 8px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.todos .done .content {
+    margin: 7px;
+    padding: 8px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    text-decoration: line-through;
+}
